@@ -6,6 +6,7 @@ resource "google_compute_network" "mynetwork" {
 }
 
 # Add a firewall rule to allow HTTP, SSH, RDP, and ICMP traffic on mynetwork
+
 resource "google_compute_firewall" "mynetwork-allow-http-ssh-rdp-icmp" {
   name    = "mynetwork-allow-http-ssh-rdp-icmp"
   network = google_compute_network.mynetwork.self_link
