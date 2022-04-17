@@ -31,6 +31,7 @@ module "mynet-us-vm" {
 }
 
 # Create the mynet-eu-vm" instance
+  
 module "mynet-eu-vm" {
   source           = "./instance"
   instance_name    = "mynet-eu-vm"
