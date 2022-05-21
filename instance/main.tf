@@ -1,5 +1,5 @@
 variable "instance_name" {  }
-variable "instance_zone" { }
+variable "instance_zone" {  }
 variable "instance_type" {
   default = "n1-standard-1" 
   }
