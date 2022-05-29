@@ -1,4 +1,4 @@
-# Create the mynetwork network  
+# Create the mynetwork network   
 
 resource "google_compute_network" "mynetwork" {  
   name                    = "mynetwork"
