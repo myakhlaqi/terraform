@@ -18,7 +18,7 @@ resource "google_compute_firewall" "mynetwork-allow-http-ssh-rdp-icmp" {
   allow {
     protocol = "icmp"
   }
-  source_ranges = ["0.0.0.0/0"]
+  source_ranges = ["0.0.0.0/0"] 
 }
 
 # Create the mynet-us-vm instance
